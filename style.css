@@ -1,0 +1,118 @@
+.lingkaran{
+    display: inline-block;
+    border-radius: 50%;
+    width: 130px;
+    margin: auto;
+    height: 130px;
+    color: #FFF;
+    background-color: rgb(75, 236, 161);
+}
+p {
+    text-align: center;
+    font-size: 23px;
+}
+#table {
+    font-family: helvetica;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  #table td, #table th {
+    border: 3px solid; #ddd;
+    padding: 5px;
+  }
+  
+  #table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table tr:hover {background-color: #ddd;}
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #91c3d6;
+    color: rgb(255, 255, 255);
+    border-color: black;
+  }
+  #table td {
+    text-align: center;
+  }
+  ul.b {
+    list-style-type: square;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+  }
+  .tengah {
+    text-align: center;
+    width: 100%;
+  }
+  .menu-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .kartu-menu {
+    width: 20%;
+    margin: 0 auto;
+  }
+  .kartu-menu img {
+    width: 80%;
+    border-radius: 50%;
+  }
+  .kartu-menu p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+  }
+  p1 {
+    margin: 20px;
+    font-size: 20px;
+  }
+  p2 {
+    color: red;
+  }
+  .material-symbols-outlined.ic {
+    font-size: 80px;
+    padding: 20px;
+  }
+  .material-symbols-outlined.bd {
+    font-size: 80px;
+    padding: 20px;
+  }
+  .material-symbols-outlined.lc {
+    font-size: 80px;
+    padding: 20px;
+  }
+ .read-more-container {
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  .read-more.btn {
+    color: aqua;
+  }
+  .read-more-text {
+    display: none;
+  }
+  .read-more-text--show {
+    display: inline;
+  }
+  .contents{
+    background-color: #64965d;
+    margin: 10px;
+    border: 5px inset rgb(191, 255, 189);
+    padding: 10px;
+    width: 40%;
+}
